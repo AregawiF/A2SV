@@ -12,20 +12,3 @@ class Solution:
             else:
                 left = mid + 1
         return left
-
-        # left = 0
-        # right = n
-        # if n == 1:
-        #     return 1
-        # while left <= right:
-        #     mid = (left + right)//2
-        #     if left == right -1 or left == right:
-        #         if isBadVersion(left):
-        #             return left + 1
-        #         else:
-        #             return right + 1 
-        #     if isBadVersion(mid):
-        #         right = mid 
-        #     elif isBadVersion(mid) == False:
-        #         left = mid + 1     
-
